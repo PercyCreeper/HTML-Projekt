@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang ="de">
+<head>
+	<title>Adventure Spiel</title>
+	<link href="../main.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<img src="../Textures/Holztisch_mit_Rekorder.png" id="background" >
+	<input id="start_audio" name="audio_control" type="radio"/>
+	<input id="rewind_audio" name="audio_control" type="radio"/>
+	<input id="pause_audio" name="audio_control" type="radio"/>
+	<audio autoplay="on" id="code_audio">
+		<source src="../sounds/code1.mp3" type="audio/mpeg">
+	</audio>
+	<div id="code">
+		<input id="code_input" type="text"/>
+		<p id="feedback">Test</p>
+		<button id="weiter1">Weiter</button>
+	</div>
+</body>
+<footer>
+	<script src="../scripts/puzzle1.js"></script>
+</footer>
+</html>
